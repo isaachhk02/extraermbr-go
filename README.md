@@ -1,17 +1,17 @@
-# MBR Extractor
+# Extractor de Master Boot Record
 
-This software extracts the first **512** bytes from hard disk.
-The Master Boot Record is stored in the first 512 bytes; therefore, this utility extracts those first 512 bytes into a binary file.
+Este software extrae los primeros **512** bytes del disco duro
+El Master Boot Record se encuentra en los primeros **512** bytes del disco duro, Así que decidí extraerlo en un archivo binario como practica.
 
-# Requirements:
+# Requisitos:
 - Go
 - Make
 
-# Build:
+# Compilar:
 
 `make`
 
-# How to use?
+# Como usarlo?
 Windows: 
 `mbrextractor-go.exe \\.\PhysicalDrive0 mbr.bin`
 
@@ -21,4 +21,4 @@ Linux:
 
 > [!IMPORTANT]
 > 
-> MAKE SURE RUN THIS SOFTWARE AS ROOT/ADMIN!
+> Asegurate de ser root/admin!
