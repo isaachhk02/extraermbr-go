@@ -1,3 +1,3 @@
-module github.com/isaachhk02/mbrextractor-go
+module github.com/isaachhk02/extractormbr-go
 
 go 1.27.0
