@@ -1,4 +1,4 @@
 build:
-	go build -o extractormbr-go lib.go main.go
+	go build -o extraermbr-go lib.go main.go
 clean:
-	rm extractormbr-go
+	rm extraermbr-go
