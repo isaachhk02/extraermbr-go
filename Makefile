@@ -1,4 +1,4 @@
 build:
-	go build -o partitiontabler_extractor lib.go main.go
+	go build -o extractormbr-go lib.go main.go
 clean:
-	rm partitiontabler_extractor
+	rm extractormbr-go
