@@ -12,7 +12,7 @@ func main() {
 	argumentos := os.Args
 
 	if len(argumentos) < 3 {
-		fmt.Println("extractormbr-go [dispositivo] [archivo_salida]")
+		fmt.Println("extraermbr-go [dispositivo] [archivo_salida]")
 		fmt.Println("dispositivo: Ruta del dispositivo de bloques (ejemplo: /dev/sda) para extraer la tabla de particiones")
 		fmt.Println("archivo_salida: Ruta donde se guardara la tabla de particiones en un archivo binario")
 	} else {
