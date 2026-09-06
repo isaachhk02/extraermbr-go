@@ -1,4 +1,4 @@
-# Extractor de Master Boot Record
+# Extraer Master Boot Record
 
 Este software extrae los primeros **512** bytes del disco duro
 El Master Boot Record se encuentra en los primeros **512** bytes del disco duro, Así que decidí extraerlo en un archivo binario como practica.
