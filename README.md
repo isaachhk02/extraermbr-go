@@ -13,10 +13,10 @@ El Master Boot Record se encuentra en los primeros **512** bytes del disco duro,
 
 # Como usarlo?
 Windows: 
-`mbrextractor-go.exe \\.\PhysicalDrive0 mbr.bin`
+`extraermbr-go.exe \\.\PhysicalDrive0 mbr.bin`
 
 Linux:
-`sudo ./mbrextractor-go /dev/sda mbr.bin`
+`sudo ./extraermbr-go /dev/sda mbr.bin`
 
 
 > [!IMPORTANT]
